@@ -20,6 +20,12 @@
         "plugin",
         "library"
     ],
+    "conflicts": [
+        {"name": "BepInEx"}
+    ],
+    "provides": [
+        {"name": "BepInEx"}
+    ],
     "install": [
         {
             "find": "BepInEx",
