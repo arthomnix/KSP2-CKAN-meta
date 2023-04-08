@@ -22,9 +22,17 @@
     ],
     "install": [
         {
-            "file": "",
+            "find": "BepInEx",
             "install_to": "GameRoot"
         },
+        {
+            "file": "doorstop_config.ini",
+            "install_to": "GameRoot"
+        },
+        {
+            "file": "winhttp.dll",
+            "install_to": "GameRoot"
+        }
     ],
     "download": "https://spacedock.info/mod/3277/Space%20Warp%20+%20BepInEx/download/1.1.1",
     "download_size": 3903359,
