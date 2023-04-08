@@ -18,6 +18,7 @@
         "plugin",
         "library"
     ],
+    "replaced_by": {"name": "SpaceWarp"},
     "install": [
         {
             "find": "BepInEx",
