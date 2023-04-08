@@ -20,20 +20,11 @@
         "plugin",
         "library"
     ],
-    "depends": [
-        {
-            "name": "BepInEx"
-        }
-    ],
     "install": [
         {
-            "find": "ConfigurationManager",
-            "install_to": "BepInEx/plugins"
+            "file": "",
+            "install_to": "GameRoot"
         },
-        {
-            "find": "SpaceWarp",
-            "install_to": "BepInEx/plugins"
-        }
     ],
     "download": "https://spacedock.info/mod/3277/Space%20Warp%20+%20BepInEx/download/1.1.1",
     "download_size": 3903359,
